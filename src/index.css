@@ -1,8 +1,12 @@
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+
+  font-family: 'Jost', sans-serif;
+  font-size: 14px;
+  line-height: 24px; /* Межстрочный интервал */
+  font-weight: 400;  /* Жирность шрифта */
+  color: black;
+
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
@@ -10,4 +14,373 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+.MainHeader{
+  margin-bottom: 75px;
+  position: sticky;
+}
+
+.main-navigation{ /*навигация по сайту*/
+  display: flex;
+
+  align-items: flex-start;
+  flex-direction: row;
+
+  font-size: 20px;
+  line-height: 20px;
+
+  color: white;
+  background-color: transparent;
+  border-bottom: 2px solid #c5baba;
+}
+
+.main-header-logo{
+  order: 0;
+  width: 45px;
+  height: 45px;
+
+  padding-top: 10px;
+  padding-right: 40px;
+  padding-left: 100px;
+}
+
+.site-navigation a,
+.user-navigation{
+  display: block;
+  padding: 25px 20px;
+  vertical-align: middle;
+
+  color: black;
+}
+
+.site-navigation{
+  display: flex;
+  justify-content: space-between;
+
+  width: 750px;
+
+  list-style: none;
+  padding: 0;
+  margin: 0;
+
+  //border: 2px solid red;
+
+}
+
+.user-navigation {
+  //display: block;
+  width: 250px;
+
+  list-style: none;
+  padding: 15px;
+  margin: 0;
+
+  margin-right: auto;
+  margin-left: auto;
+
+
+  //border: 2px solid red;
+}
+
+
+
+.user-navigation .button-chat{
+  position: relative;
+  //padding-left: 30px;
+}
+
+
+.button-chat a{
+  width: 160px;
+  color: #003D84;
+}
+
+.button-chat::before{
+  content: "";
+
+  position: absolute;
+  top: 6px;
+  left: 30px;
+
+  width: 22px;
+  height: 25px;
+
+  background-image: url("img/telegram.png");
+  background-repeat: no-repeat;
+  background-position: 0 0;
+
+  opacity: 0.3; /* Прозрачность  */
+}
+
+.button-chat:focus::before,
+.button-chat:hover::before,
+.button-chat:active::before{
+  opacity: 1;
+}
+
+.button-chat .button:focus,
+.button-chat .button:hover{
+  background-color: #97a5d7;
+}
+
+ul{
+  list-style: none;
+}
+
+a{
+  text-decoration: none;
+}
+
+.button{
+  display: inline-block;
+  margin-right: 15px;
+  padding: 5px 15px;
+
+
+  font: inherit; /*inherit - наследует свойства у родительского класса*/
+  text-align: center; /* Выравнивание текста */
+  color: black;
+  vertical-align: middle; /* Выравнивание текста по вертикали*/
+  background-color: white;
+  border: 2px solid #003D84;
+  border-radius: 8px;
+}
+
+/* Информация на главной страничке */
+
+.container{
+  font: inherit;
+  margin: 50px auto;/* сверху | справа | снизу | слева */
+  display: inline-flex;
+
+}
+
+.container-info{
+  //border: 2px solid red;
+  display: flex;
+  flex-direction: column;
+}
+
+.name-logo{
+  margin: 90px 0 0 70px;
+  //border: 2px solid red;
+}
+
+.accept-button{
+  width: 200px;
+
+  margin: auto; /* сверху | справа | снизу | слева */
+
+  font-size: 16px;
+
+  color: white;
+  background-color: #005FAB;
+}
+
+.accept-button:focus,
+.accept-button:hover{
+  background-color: #014d8a;
+}
+
+.container-logo-satellite{
+  margin-top: 40px;
+  padding-left: 50px;
+  //border: 2px solid red;
+
+}
+
+/* -------------------------------- */
+
+
+/*------------- About.js -------------*/
+
+.information h1{
+  text-transform: uppercase;
+  font-size: 50px;
+  color: #003D84;
+}
+
+.Map{
+  margin-right: 20px;
+  //border: 2px solid red;
+}
+
+
+.text-about{
+  font-size: 22px;
+  font-weight: 300;
+
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+
+  margin: 0 230px;
+  padding: 10px 10px 10px 10px;
+  border: 2px solid #504c4c;
+
+}
+
+.text-about span{
+  font-weight: 400;
+}
+/* -----------------------------------*/
+
+/*------------- Cases.js -------------*/
+.cases-information .information{
+  display: flex;
+  margin-top: 70px;
+  margin-left: 260px;
+  //border: 2px solid red;
+}
+
+.Case_1,
+.Case_2{
+  font-size: 18px;
+
+  width: 200px;
+
+  margin: 0 20px 0 20px; /* сверху | справа | снизу | слева */
+  padding: 10px;
+
+  border: 2px solid #504c4c;
+
+}
+
+/* -----------------------------------*/
+
+/*------------- Timeline.js -------------*/
+
+.timeline-information .information{
+  display: flex;
+  margin-top: 70px;
+  margin-left: 260px;
+  //border: 2px solid red;
+}
+
+.time-logo{
+  margin-right: 300px;
+  margin-left: 300px;/* сверху | справа | снизу | слева */
+  padding: 10px;
+  border: 2px solid #504c4c;
+}
+
+/* --------------------------------------*/
+
+/*------------- Prizes.js -------------*/
+.container-prizes .information{
+  display: flex;
+  margin-top: 70px;
+  margin-left: 260px;
+}
+
+.prize-logo{
+  margin: 90px;
+}
+/* ------------------------------------*/
+
+/*------------- Partners.js -------------*/
+.container-partners .information{
+  display: flex;
+  margin-top: 70px;
+  margin-left: 260px;
+}
+
+.partners-logo{
+  margin: 50px 30px;
+  border-radius: 8px;
+}
+/* --------------------------------------*/
+
+
+/* Popup*/
+.popup{
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(2, 2, 2, 0.32);
+  top: 0;
+  left: 0;
+  opacity: 0;
+  visibility: hidden;
+}
+
+.popup:target{
+  opacity: 1;
+  visibility: visible;
+}
+
+.popup-body{
+  min-height: 80%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 30px 10px;
+}
+
+.popup-content{
+  background-color: white;
+  color: black;
+  width: 40vw;
+  height: 80vh;
+}
+
+.popup-close{
+  display: flex;
+  justify-content: right;
+  margin-top: 10px;
+  //border: 2px solid red;
+}
+
+.popup-close .button:focus,
+.popup-close .button:hover{
+  background-color: #fa3838;
+}
+
+.form-description{
+  font-family: inherit;
+  font-size: 30px;
+}
+
+
+.form p{
+  //border: 2px solid red;
+  font-family: inherit;
+  font-size: 18px;
+  margin: 20px 50px;
+
+  display: flex;
+  flex-direction: column;
+}
+
+.form input{
+  box-sizing: border-box;
+  display: block;
+  font-family: inherit;
+  font-size: 18px;
+  border: none;
+  border-bottom: 2px solid #003D84;
+  outline:none;
+}
+
+
+.label-form{
+  display: inline;
+  margin: 10px 0;
+  text-align: left;
+  //border: 2px solid red;
+}
+
+.form-button{
+  display: flex;
+  margin-top: 30px;
+  padding-left: 40px;
+  font-family: inherit;
+  font-size: 16px;
+
+}
+
+.form-button .button:focus,
+.form-button .button:hover{
+  background-color: #3c60da;
 }
