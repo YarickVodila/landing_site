@@ -215,7 +215,7 @@ a{
   flex-direction: column;
   text-align: left;
 
-  margin: 0 230px;
+  margin: 0 180px;
   padding: 10px 10px 10px 10px;
   border: 2px solid #504c4c;
 
@@ -237,8 +237,8 @@ a{
 .Case_1,
 .Case_2{
   font-size: 18px;
-
-  width: 200px;
+  text-align: justify;
+  width: 600px;
 
   margin: 0 20px 0 20px; /* сверху | справа | снизу | слева */
   padding: 10px;
@@ -246,6 +246,14 @@ a{
   border: 2px solid #504c4c;
 
 }
+
+
+.Case_1 div,
+.Case_2 div{
+  text-align: center;
+
+}
+
 
 /* -----------------------------------*/
 
@@ -262,7 +270,7 @@ a{
   margin-right: 300px;
   margin-left: 300px;/* сверху | справа | снизу | слева */
   padding: 10px;
-  border: 2px solid #504c4c;
+  //border: 2px solid #504c4c;
 }
 
 /* --------------------------------------*/
@@ -289,6 +297,23 @@ a{
 .partners-logo{
   margin: 50px 30px;
   border-radius: 8px;
+}
+
+.Logos{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+  //border: 2px solid red;
+  margin: 0 200px;
+
+}
+
+.About-partners{
+  border: 2px solid #504c4c;
+  max-width: 300px;
+  margin: 10px;
+  //text-align: end;
 }
 /* --------------------------------------*/
 
