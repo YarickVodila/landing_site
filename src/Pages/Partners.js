@@ -16,10 +16,11 @@ export default class Partners extends Component{
                     </section>
                     <section className={'Logos'}>
                         <section className={'About-partners'}>
-                            <img className={'partners-logo'} src={Motiv} width={250} height={50} alt={'Мотив'}/>
+                            <img className={'partners-logo'} src={grchc} width={100} height={100} alt={''}/>
                             <p>
-                                Телекоммуникационная группа Мотив – ведущий инфраструктурный оператор связи в Уральском
-                                Федеральном округе. Сайт компании https://motivtelecom.ru/
+                                Филиал ФГУП «ГРЧЦ» в УрФО - обеспечение надлежащего использования радиочастот и радиочастотных каналов,
+                                радиоэлектронных средств и (или) высокочастотных устройств гражданского назначения, экспертиза и мониторинг соблюдения законодательства
+                                , участие в предоставлении государственных услуг. Сайт компании https://grfc.ru/
                             </p>
                         </section>
                         <section className={'About-partners'}>
@@ -37,20 +38,20 @@ export default class Partners extends Component{
                             </p>
                         </section>
                         <section className={'About-partners'}>
+                            <img className={'partners-logo'} src={Motiv} width={250} height={50} alt={'Мотив'}/>
+                            <p>
+                                Телекоммуникационная группа Мотив – ведущий инфраструктурный оператор связи в Уральском
+                                Федеральном округе. Сайт компании https://motivtelecom.ru/
+                            </p>
+                        </section>
+                        <section className={'About-partners'}>
                             <img className={'partners-logo'} src={energoit} width={100} height={100} alt={''}/>
                             <p>
                                 ООО «Энерго Ай Ти» - проектирование, строительство, техническое обслуживание волоконно-оптических линий связи.
                                 Сайт компании энергоайти.рф
                             </p>
                         </section>
-                        <section className={'About-partners'}>
-                            <img className={'partners-logo'} src={grchc} width={100} height={100} alt={''}/>
-                            <p>
-                                Филиал ФГУП «ГРЧЦ» в УрФО - обеспечение надлежащего использования радиочастот и радиочастотных каналов,
-                                радиоэлектронных средств и (или) высокочастотных устройств гражданского назначения, экспертиза и мониторинг соблюдения законодательства
-                                , участие в предоставлении государственных услуг. Сайт компании https://grfc.ru/
-                            </p>
-                        </section>
+
                     </section>
                 </section>
 
