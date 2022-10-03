@@ -38,13 +38,10 @@ function App() {
                       <li className="header-item">
                           <a href="/partners">Партнёры</a>
                       </li>
-                      <li className="header-item">
-                          <a href="#">FAQ</a>
-                      </li>
                   </ul>
                   <ul className="user-navigation">
                       <li className={"button-chat"}>
-                          <a className={"button"} href="#">Чат хакатона</a>
+                          <a className={"button"} href="https://t.me/+bARieX8rdjwyNDVi">Чат хакатона</a>
                       </li>
                   </ul>
               </Nav>
