@@ -26,8 +26,9 @@ export default class Partners extends Component{
                         <section className={'About-partners'}>
                             <img className={'partners-logo'} src={iut} width={250} height={50} alt={''}/>
                             <p>
-                                АО "ИскраУралТЕЛ" – полный цикл проектирования, производства, реализации и поддержки телекоммуникационного оборудования и ПО.
-                                Сайт компании https://www.iskrauraltel.ru/
+                                АО "ИскраУралТЕЛ" – полный цикл проектирования, производства, реализации и
+                                поддержки передовых интегрированных решений для операторов, транспортных компаний,
+                                общественной безопасности, электроэнергетики и нефтегазовой отрасли. Сайт компании https://www.iskrauraltel.ru/
                             </p>
                         </section>
                         <section className={'About-partners'}>
