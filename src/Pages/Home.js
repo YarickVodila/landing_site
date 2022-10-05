@@ -17,7 +17,7 @@ export default class Home extends Component{
                 <main className={"container"}>
                     <section className={'container-info'}>
                         <img className={'name-logo'} src={Name}/>
-                        <a href={'#'} className={'button accept-button'}>Принять участие</a>
+                        <a href={'https://vk.com/wall-215278139_15'} className={'button accept-button'}>Принять участие</a>
                     </section>
                     <section className={'container-logo-satellite'}>
                         <img className={'satellite'} src={satellite}/>
