@@ -5,6 +5,7 @@ import Motiv from "../img/motiv.png";
 import energoit from "../img/EnergoIT.png";
 import grchc from "../img/GRCHC.png";
 import iut from "../img/IUT.png";
+import ubrir from "../img/Логотип_УБРиР.png";
 
 export default class Partners extends Component{
     render() {
@@ -53,6 +54,15 @@ export default class Partners extends Component{
                             <p>
                                 ООО «Энерго Ай Ти» - проектирование, строительство, техническое обслуживание волоконно-оптических линий связи.
                                 Сайт компании энергоайти.рф
+                            </p>
+                        </section>
+                        <section className={'About-partners'}>
+                            <img className={'partners-logo'} src={ubrir} width={250} height={50} alt={''}/>
+                            <p>
+                                Уральский банк реконструкции и развития.
+                                Входит в список 30 крупнейших банков России, составленный ЦБ РФ, и в топ-100
+                                самых надёжных кредитных учреждений России, по версии журнала Forbes.
+                                Сайт https://www.ubrr.ru/
                             </p>
                         </section>
 
