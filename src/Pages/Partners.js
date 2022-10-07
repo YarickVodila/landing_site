@@ -6,6 +6,7 @@ import energoit from "../img/EnergoIT.png";
 import grchc from "../img/GRCHC.png";
 import iut from "../img/IUT.png";
 import ubrir from "../img/Логотип_УБРиР.png";
+import nag from "../img/nag.svg";
 
 export default class Partners extends Component{
     render() {
@@ -65,7 +66,14 @@ export default class Partners extends Component{
                                 Сайт https://www.ubrr.ru/
                             </p>
                         </section>
-
+                        <section className={'About-partners'}>
+                            <img className={'partners-logo'} src={nag} width={250} height={50} alt={''}/>
+                            <p>
+                                НАГ сегодня это - открытый и честный каталог, который помогает IT и Телеком отрасли
+                                в решении здач по выбору и поставке оборудования
+                                Сайт https://shop.nag.ru
+                            </p>
+                        </section>
                     </section>
                 </section>
 
